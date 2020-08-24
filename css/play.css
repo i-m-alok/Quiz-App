@@ -1,0 +1,42 @@
+#play {
+    border: 0.1rem solid rgb(162, 248, 48);
+    max-width: 90vw;
+    padding: 1.5rem;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(162, 248, 48);
+    background-color:  rgb(15, 15, 15);
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(162, 248, 48) ;
+    transform: translateY(0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-number {
+    padding: 1.5rem 2.5rem;
+    color: black;
+    background-color: rgb(162, 248, 48);
+    font-weight: 500;
+}
+
+.choice-text {
+    width: 100%;
+    font-weight: 500;
+    padding: 1.5rem 2.5rem;
+}
+
+.success {
+    background-color: darkorange;
+}
+
+.failure {
+    background-color: red;
+}
