@@ -136,3 +136,26 @@ input {
     margin-bottom: 1rem;
     padding: 1rem;
 }
+
+/* table  */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+table, th, td {
+  border: 0.1rem solid rgb(162, 248, 48);
+}
+
+th {
+    height: 4rem;
+    font-weight: 500;
+}
+
+td {
+    height: 4rem;
+}
